@@ -1,0 +1,103 @@
+site_name: CertDirectory Credentials Documentation
+site_url: https://docs.credentials.certdirectory.io
+site_description: Documentation for the CertDirectory Credentials platform — issue, verify, and manage Open Badges 3.0 credentials.
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  logo: images/logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Introduction: getting-started/introduction.md
+    - Quickstart: getting-started/quickstart.md
+    - Key Concepts: getting-started/concepts.md
+  - For Recipients:
+    - Creating an Account: recipients/creating-an-account.md
+    - Claiming a Credential: recipients/claiming-a-credential.md
+    - Sharing Your Credentials: recipients/sharing-credentials.md
+    - Public Profile: recipients/public-profile.md
+  - For Organizations:
+    - Creating an Organization: organizations/creating-an-organization.md
+    - Domain Verification: organizations/domain-verification.md
+    - Creating a Badge: organizations/creating-a-badge.md
+    - Issuing Credentials: organizations/issuing-a-credential.md
+    - Bulk Issuance: organizations/bulk-issuance.md
+    - Renewing Credentials: organizations/renewing-credentials.md
+    - Revoking Credentials: organizations/revoking-credentials.md
+    - Members & Roles: organizations/members-and-roles.md
+    - Billing & Plans: organizations/billing.md
+  - Verification:
+    - Verifying a Credential: verification/verifying-a-credential.md
+    - QR Codes: verification/qr-codes.md
+    - Open Badges 3.0: verification/open-badges.md
+  - API Reference:
+    - Overview: api/overview.md
+    - Authentication: api/authentication.md
+    - Badges: api/badges.md
+    - Credentials: api/credentials.md
+    - Webhooks: api/webhooks.md
+    - Rate Limits: api/rate-limits.md
+  - Resources:
+    - FAQ: resources/faq.md
+    - Troubleshooting: resources/troubleshooting.md
+    - Changelog: resources/changelog.md
+  - Team: team.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/certdirectory/credentials-docs
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/certdirectory
+  homepage: https://credentials.certdirectory.io
+
+repo_url: https://github.com/certdirectory/credentials-docs
+edit_uri: edit/main/mkdocs/docs/
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
