@@ -82,7 +82,7 @@ extra:
   homepage: https://credentials.certdirectory.io
 
 repo_url: https://github.com/certdirectory/credentials-docs
-edit_uri: edit/main/mkdocs/docs/
+edit_uri: edit/main/docs/
 
 plugins:
   - search
