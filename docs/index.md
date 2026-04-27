@@ -4,19 +4,20 @@ Welcome to the official documentation for the **CertDirectory Credentials** plat
 
 ## What you can do
 
-- **Issue** verifiable digital credentials to recipients individually or in bulk.
-- **Verify** any credential publicly via a unique link or QR code.
-- **Renew** expired or time-bound credentials, with full credential linking.
+- **Issue** verifiable digital credentials to recipients individually or in bulk via CSV.
+- **Verify** any credential publicly via a unique link, QR code, or by uploading a baked badge image.
+- **Renew** expired, time-bound, or revoked credentials, with full credential linking via OB3 supersession.
 - **Manage** your organization, members, badges, and credentials from a single dashboard.
+- **Integrate** with our REST API to issue and query credentials programmatically.
 
 ## Where to start
 
-- New to the platform? Start with the [Introduction](getting-started/introduction.md) and [Quickstart](getting-started/quickstart.md).
-- Issuing your first credential? Jump to [For Organizations](organizations/creating-an-organization.md).
-- Just received a credential? See [For Recipients](recipients/creating-an-account.md).
-- Building an integration? Visit the [API Reference](api/overview.md).
+- **New to the platform?** → [Introduction](getting-started/introduction.md) and [Quickstart](getting-started/quickstart.md).
+- **Just received a credential?** → [For Recipients](recipients/creating-an-account.md).
+- **Issuing your first credential?** → [For Organizations](organizations/creating-an-organization.md).
+- **Building an integration?** → [API Reference](api/overview.md).
 
 ## Need help?
 
-- Check the [FAQ](resources/faq.md) and [Troubleshooting](resources/troubleshooting.md) guides.
-- Reach out via [GitHub](https://github.com/certdirectory/credentials-docs).
+- Check the [FAQ](resources/faq.md) and [Troubleshooting](resources/troubleshooting.md).
+- Reach out via the [GitHub repository](https://github.com/certdirectory/credentials-docs).
