@@ -50,6 +50,7 @@ nav:
     - Creating an Organization: organizations/creating-an-organization.md
     - Domain Verification: organizations/domain-verification.md
     - Creating a Badge: organizations/creating-a-badge.md
+    - Renewal & Re-issuance Strategy: organizations/planning-renewals.md
     - Issuing Credentials: organizations/issuing-a-credential.md
     - Bulk Issuance: organizations/bulk-issuance.md
     - Renewing Credentials: organizations/renewing-credentials.md
