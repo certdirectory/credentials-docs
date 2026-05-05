@@ -8,7 +8,7 @@ Yes. Every credential is a fully signed Open Badges 3.0 JSON-LD document, signed
 
 ### Is the platform free to use?
 
-There's a generous **Free** tier — you get 1,000 unique recipients per month, up to 100 badge templates, and one organization owner. Paid plans add bulk CSV issuance, API access, QR codes, domain verification, and more. See [Billing & Plans](../organizations/billing.md).
+There's a generous **Free** tier — you get 1,000 unique recipients per month, up to 1,000 badge templates, and one organization owner. Paid plans add bulk CSV issuance, API access, QR codes, domain verification, and more. See [Billing & Plans](../organizations/billing.md).
 
 ### Where is the source?
 

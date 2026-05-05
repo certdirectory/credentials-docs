@@ -8,7 +8,7 @@ CertDirectory Credentials offers three subscription tiers. Each organization has
 |---|---|---|---|
 | Price (monthly) | **$0** | **$49** | **$150** |
 | Unique recipients per month | 1,000 | 1,000 | 5,000 |
-| Badge templates | 100 | Unlimited | Unlimited |
+| Badge templates | 1,000 | Unlimited | Unlimited |
 | Owners per organization | 1 | 2 | Unlimited |
 | API keys (active) | 0 | 1 | Unlimited |
 | Single issuance | ✅ | ✅ | ✅ |

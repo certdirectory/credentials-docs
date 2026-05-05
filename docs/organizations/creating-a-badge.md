@@ -5,7 +5,7 @@ A **badge** (a.k.a. an *Achievement* in Open Badges 3.0 terms) is a reusable tem
 ## Prerequisites
 
 - You're a member of an approved organization with at least the **Issuer** role.
-- Your plan allows another badge template (Free: 100 max; Professional & Enterprise: unlimited).
+- Your plan allows another badge template (Free: 1,000 max; Professional & Enterprise: unlimited).
 
 ## Create a badge
 
@@ -45,7 +45,7 @@ The badge image is uploaded to Google Cloud Storage and served from a stable URL
 
 | Tier | Max badge templates per organization |
 |---|---|
-| **Free** | 100 |
+| **Free** | 1,000 |
 | **Professional** | Unlimited |
 | **Enterprise** | Unlimited |
 
