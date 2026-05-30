@@ -36,7 +36,7 @@ Setting an expiry date doesn't rescue you either — the *next* month's issuance
 
 **Recommended pattern:**
 
-- Use the **same display name** for every event's attendee badge — e.g. `CertDirectory Meetup Attendee`. Names are not required to be unique, so this is perfectly fine and keeps recipients' profiles looking consistent.
+- Use a **unique display name** for every event's attendee badge — e.g. `CertDirectory Meetup Attendee April 2026`. Note: Names are not required to be unique, but it's a good idea to use a unique name so that we can easily identify the badge by its name.
 - Give each badge a **unique slug**, like `certdirectory-meetup-attendee-april-2026`, `certdirectory-meetup-attendee-may-2026`, and so on. The slug is what makes two templates distinct in the system.
 - Give each badge a **unique image** — design a base template and overlay the event's month and year. Recipients end up with a clean collage of per-event badges on their public profile.
 - Leave **expiry blank** (no expiration). Each event's attendance is a permanent record.
